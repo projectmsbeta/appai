@@ -1,0 +1,40 @@
+body {
+    font-size: 30px;
+    color: black;
+    background-color: #efedd9;
+  }
+  button {
+    background-color: lightgrey;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    width: 300px;
+    height: 75px;
+    margin: 2px;
+    transition: background-color 0.3s ease-in-out;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap-reverse;
+  }
+  button:hover {
+    background-color: gray;
+  }
+  button:active {
+    box-shadow: 5px 5px 5px black;
+  }
+  ol {
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap-reverse;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+  @media (max-width: 600px) {
+    button {
+      width: 100%;
+      
+    }
+  }
